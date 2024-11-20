@@ -21,9 +21,9 @@ const HomePage: React.FC = () => {
       <div className="">
   <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG2.png')] sm:bg-[url('/images/Homepage/HomepageBG2.png')] flex flex-col items-center justify-center px-4 sm:px-8p relative">
     {/* Container for the buttons */}
-    <div className="absolute md:bottom-[90px] md:right-[140px] flex flex-col space-y-5">
+    <div className="absolute md:bottom-[90px] md:right-[140px] flex flex-col sm:space-y-6 space-y-2 sm:text-xs lg:text-base text-[8px] bottom-[30px] right-[40px] p-10">
       {/* Top button */}
-      <button className="bg-white text-black py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition duration-300 right-5">
+      <button className="bg-white text-black py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ">
         LOOK AND LEARN HANDS-ON MASTER CLASS
       </button>
 
