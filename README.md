@@ -11,6 +11,8 @@ git clone https://github.com/louvreeeeeee/barberexpophilippines.git
 cd barberexpophilippines
 # 3. Install npm
 npm install
+# or
+npm install --legacy-peer-deps
 # Run the code
 npm run dev
 ```
