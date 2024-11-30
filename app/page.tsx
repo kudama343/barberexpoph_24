@@ -9,13 +9,19 @@ const HomePage: React.FC = () => {
       {/* Background Section */}
       <div className="">
         
-      <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG1.png')] sm:bg-[url('/images/Homepage/HomepageBG1.png')] flex flex-col items-center justify-center px-4 sm:px-8p">
+      
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/Homepage/MobileV1.png')] sm:bg-[url('/images/Homepage/HomepageBG1.png')] flex flex-col items-center justify-center px-1 sm:px-8p">
         </div>
-      </div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/Homepage/MobileV2.png')] sm:bg-[url('/images/Homepage/HomepageBG1.png')] flex flex-col items-center justify-center px-1 sm:px-8p">
+        </div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/Homepage/MobileV3.png')] sm:bg-[url('/images/Homepage/HomepageBG1.png')] flex flex-col items-center justify-center px-1 sm:px-8p">
+        </div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/Homepage/MobileV4.png')] sm:bg-[url('/images/Homepage/HomepageBG1.png')] flex flex-col items-center justify-center px-1 sm:px-8p">
+        </div>
+      
     
       <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG2.png')] sm:bg-[url('/images/Homepage/HomepageBG2.png')] flex flex-col items-center justify-center px-4 sm:px-8p relative">
+        
           {/* Container for the buttons */}
           <div className="absolute flex flex-col  
                       md:bottom-[120px] md:right-[50px] md:space-y-2 
@@ -34,7 +40,7 @@ const HomePage: React.FC = () => {
               className="bg-white text-black text-center py-3 px-6 rounded-lg shadow-md hover:bg-gray-950 hover:text-white transition duration-300"
             >IN-DEPTH PRIVATE ELITE CLASS</Link>
      
-        </div>
+        
       </div>
   </div>
 </div>
