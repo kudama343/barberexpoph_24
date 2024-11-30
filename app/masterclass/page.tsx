@@ -11,21 +11,22 @@ const MasterClassPage: React.FC = () => {
 
   return (
       <div className="flex flex-col">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV6.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV7.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV8.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV9.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV10.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV11.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV12.png')] flex flex-col items-center px-4  relative">
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV6.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV7.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV8.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV9.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV10.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV11.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV13_2.png')] flex flex-col items-center px-4  relative">
         <button
           onClick={redirectToForm}
-          className="absolute mr-2  left-1/2 transform -translate-x-1/2 bottom-[33%] bg-white text-black 
-                      px-2 rounded-2xl shadow-md hover:bg-gray-950 hover:text-white transition duration-300 
-                      font-monument"
-          style={{ width: '58%', height: '4%', fontSize: '1.6rem' }}>
+          className="absolute mr-2  left-1/2 transform -translate-x-1/2 bottom-[32%] bg-white text-black 
+                      py-1 rounded-2xl shadow-md hover:bg-[#3a3a3a] hover:text-white transition duration-300 
+                      font-monument text-xl"
+          style={{ width: '230px', height: '35px' }}>
           ENROLL HERE
         </button>
+
       </div>
     </div>
   );
