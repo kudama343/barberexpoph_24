@@ -12,30 +12,25 @@ const MasterClassPage: React.FC = () => {
   return (
     <div>
       <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG3.png')] sm:bg-[url('/images/MasterClass/MasterClassBG1.png')] flex flex-col items-center justify-center px-4 sm:px-8p"></div>
-      </div>
-      <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG4.png')] sm:bg-[url('/images/MasterClass/MasterClassBG2.png')] flex items-center justify-center px-4 sm:px-8"></div>
-      </div>
-      <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG5.png')] sm:bg-[url('/images/MasterClass/MasterClassBG3.png')] flex items-center justify-center px-4 sm:px-8"></div>
-      </div>
-      <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG6.png')] sm:bg-[url('/images/MasterClass/MasterClassBG4.png')] flex items-center justify-center px-4 sm:px-8"></div>
-      </div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV6.png')] sm:bg-[url('/images/MasterClass/MasterClassBG1.png')] flex flex-col items-center justify-center px-4 sm:px-8p"></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV7.png')] sm:bg-[url('/images/MasterClass/MasterClassBG2.png')] flex items-center justify-center px-4 sm:px-8"></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV8.png')] sm:bg-[url('/images/MasterClass/MasterClassBG3.png')] flex items-center justify-center px-4 sm:px-8"></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV9.png')] sm:bg-[url('/images/MasterClass/MasterClassBG4.png')] flex items-center justify-center px-4 sm:px-8"></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV10.png')] sm:bg-[url('/images/MasterClass/MasterClassBG1.png')] flex flex-col items-center justify-center px-4 sm:px-8p"></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV11.png')] sm:bg-[url('/images/MasterClass/MasterClassBG2.png')] flex items-center justify-center px-4 sm:px-8"></div>
+        <div className="min-h-full w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/MasterClass/MobileV12.png')] sm:bg-[url('/images/MasterClass/MasterClassBG3.png')] flex items-center justify-center px-4 sm:px-8"></div>
+        </div> 
       <div className="">
         <div
-          className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG7.png')] 
-                        sm:bg-[url('/images/MasterClass/MasterClassBG5.png')] flex items-center justify-center px-4 sm:px-8">
+          //className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG7.png')] 
+          //            sm:bg-[url('/images/MasterClass/MasterClassBG5.png')] flex items-center justify-center px-4 sm:px-8">
+          className="">
           <button
             onClick={redirectToForm}
             className="bg-white text-black py-3 px-6 rounded-lg shadow-md hover:bg-gray-950 hover:text-white transition duration-300">
             ENROLL HERE
           </button>
         </div>
-      </div>
-      <div className="">
-        <div className="min-h-full w-full h-screen bg-contain bg-no-repeat bg-center bg-[url('/images/MobileView/MobileViewBG8.png')] sm:bg-[url('/images/MasterClass/MasterClassBG6.png')] flex items-center justify-center px-4 sm:px-8"></div>
       </div>
       
     </div>
