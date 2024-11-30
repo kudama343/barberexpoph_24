@@ -13,14 +13,31 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* Adjust weights if needed */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonumentExtended";
+  src: url("/fonts/MonumentExtended-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .glow {
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 
-               0 0 20px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+    0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* In styles/globals.css */
+.font-montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Ensure the bold weight exists in your font file */
 }

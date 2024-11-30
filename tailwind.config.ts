@@ -17,6 +17,11 @@ export default {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        monument: ['MonumentExtended', 'sans-serif'],
+      },
+      fontWeight: {
+        bold: '700', // Ensure '700' is used for bold in your font
       },
     },
   },
