@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
   const isMobile = screenWidth !== null && screenWidth < 768;
 
   // Dynamic button spacing based on screen height
-  const buttonSpacing = screenHeight ? screenHeight * 0.08 : 50;
+  const buttonSpacing = screenHeight ? screenHeight * 0.09 : 50;
 
   return (
     <div className="flex flex-col">
@@ -37,10 +37,10 @@ const HomePage: React.FC = () => {
         <Link
           href="/"
           className={`absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-3xl shadow-md text-center transition duration-300
-            ${isMobile ? 'w-[80%] h-[62px] text-[17px] py-3' : 'w-[385px] h-[62px] text-[20px] py-3'}
+            ${isMobile ? 'w-[80%] h-[62px] text-[16px] py-3' : 'w-[385px] h-[62px] text-[20px] py-3'}
             bg-[#3a3a3a] text-white hover:bg-gray-950 hover:text-white whitespace-nowrap`}
           style={{
-            bottom: `calc(33% + ${buttonSpacing}px)`,
+            bottom: `calc(35% + ${buttonSpacing}px)`,
             letterSpacing: '4px',
           }}
         >
@@ -63,10 +63,10 @@ const HomePage: React.FC = () => {
           href="/eliteclass"
           className={`absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-3xl shadow-md text-center transition duration-300 font-monserrat-bold
             ${isMobile ? 'w-[80%] h-[62px] text-[16px] py-3' : 'w-[385px] h-[62px] text-[18px] py-3'}
-            bg-white text-black hover:bg-gray-950 hover:text-white whitespace-nowrap`}
+            bg-white text-black hover:bg-gray-950 hover:text-white`}
           style={{
             fontWeight: 'bold',
-            bottom: `calc(13% + ${buttonSpacing}px)`,
+            bottom: `calc(11% + ${buttonSpacing}px)`,
             letterSpacing: '1px',
           }}
         >

@@ -17,12 +17,13 @@ const EliteClassPage: React.FC = () => {
       <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV22_2.png')] flex flex-col items-center px-0 sm:px-4 relative">
       <button
           onClick={redirectToForm}
-          className="absolute mr-2  left-1/2 transform -translate-x-1/2 bottom-[33%] bg-white text-black 
+          className="absolute mr-2  left-1/2 transform -translate-x-1/2 bottom-[32%] bg-white text-black 
                       py-1 rounded-2xl shadow-md hover:bg-[#3a3a3a] hover:text-white transition duration-300 
                       font-monument text-2xl"
           style={{ width: '285px', height: '42px' }}>
           ENROLL HERE
         </button>
+        
       </div>
     </div>
   );
