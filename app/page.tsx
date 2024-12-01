@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
           style={{
             width: isMobile ? '80%' : '385px',
             height: '62px',
-            fontSize: isMobile ? '23px' : '20px',
+            fontSize: isMobile ? '18px' : '20px',
             letterSpacing: '4px',
           }}
         >
@@ -46,8 +46,9 @@ const HomePage: React.FC = () => {
           style={{
             width: isMobile ? '80%' : '385px',
             height: '62px',
-            fontSize: isMobile ? '18px' : '18px',
+            fontSize: isMobile ? '16px' : '18px',
             letterSpacing: '1px',
+            //fontSize: 'clamp(14px, 2.5vw, 18px)',
           }}
         >
           LOOK AND LEARN HANDS-ON MASTER CLASS
@@ -59,7 +60,7 @@ const HomePage: React.FC = () => {
           style={{
             width: isMobile ? '80%' : '385px',
             height: '62px',
-            fontSize: isMobile ? '18px' : '18px',
+            fontSize: isMobile ? '16px' : '18px',
             letterSpacing: '1px',
           }}
         >
