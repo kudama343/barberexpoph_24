@@ -5,13 +5,18 @@ import Link from 'next/link';
 
 const HomePage: React.FC = () => {
   const [screenWidth, setScreenWidth] = useState<number | null>(null);
+  const [screenHeight, setScreenHeight] = useState<number | null>(null);
 
   useEffect(() => {
-    // Ensure this code only runs on the client
     if (typeof window !== 'undefined') {
-      const handleResize = () => setScreenWidth(window.innerWidth);
+      const handleResize = () => {
+        setScreenWidth(window.innerWidth);
+        setScreenHeight(window.innerHeight);
+      };
 
       setScreenWidth(window.innerWidth); // Initial width
+      setScreenHeight(window.innerHeight); // Initial height
+
       window.addEventListener('resize', handleResize);
 
       return () => window.removeEventListener('resize', handleResize);
@@ -19,6 +24,9 @@ const HomePage: React.FC = () => {
   }, []);
 
   const isMobile = screenWidth !== null && screenWidth < 768;
+
+  // Dynamic button spacing based on screen height
+  const buttonSpacing = screenHeight ? screenHeight * 0.1 : 50;
 
   return (
     <div className="flex flex-col">
@@ -28,12 +36,11 @@ const HomePage: React.FC = () => {
       <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/Homepage/MobileV5_2.png')] flex flex-col items-center justify-center px-1 relative">
         <Link
           href="/"
-          className="absolute left-1/2 transform -translate-x-1/2 bottom-[48%] bg-[#3a3a3a] text-white 
-                      py-3 rounded-3xl shadow-md hover:bg-gray-950 hover:text-white transition duration-300 text-center"
+          className={`absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-3xl shadow-md text-center transition duration-300
+            ${isMobile ? 'w-[80%] h-[62px] text-[18px] py-3' : 'w-[385px] h-[62px] text-[20px] py-3'}
+            bg-[#3a3a3a] text-white hover:bg-gray-950 hover:text-white`}
           style={{
-            width: isMobile ? '80%' : '385px',
-            height: '62px',
-            fontSize: isMobile ? '18px' : '20px',
+            bottom: `calc(38% + ${buttonSpacing}px)`,
             letterSpacing: '4px',
           }}
         >
@@ -41,26 +48,25 @@ const HomePage: React.FC = () => {
         </Link>
         <Link
           href="/masterclass"
-          className="absolute left-1/2 transform -translate-x-1/2 bottom-[38%] bg-white text-black 
-                      py-1 rounded-3xl shadow-md hover:bg-gray-950 hover:text-white transition duration-300 font-montserrat-bold text-center"
+          className={`absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-3xl shadow-md text-center transition duration-300 
+            ${isMobile ? 'w-[80%] h-[62px] text-[16px] py-3' : 'w-[385px] h-[62px] text-[18px] py-3'}
+            bg-white text-black hover:bg-gray-950 hover:text-white`}
           style={{
-            width: isMobile ? '80%' : '385px',
-            height: '62px',
-            fontSize: isMobile ? '16px' : '18px',
+            fontWeight: 'bold',
+            bottom: `calc(28% + ${buttonSpacing}px)`,
             letterSpacing: '1px',
-            //fontSize: 'clamp(14px, 2.5vw, 18px)',
           }}
         >
           LOOK AND LEARN HANDS-ON MASTER CLASS
         </Link>
         <Link
           href="/eliteclass"
-          className="absolute left-1/2 transform -translate-x-1/2 bottom-[28%] bg-white text-black 
-                      py-4 rounded-3xl shadow-md hover:bg-gray-950 hover:text-white transition duration-300 font-montserrat-bold text-center"
+          className={`absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-3xl shadow-md text-center transition duration-300 font-monserrat-bold
+            ${isMobile ? 'w-[80%] h-[62px] text-[16px] py-3' : 'w-[385px] h-[62px] text-[18px] py-3'}
+            bg-white text-black hover:bg-gray-950 hover:text-white`}
           style={{
-            width: isMobile ? '80%' : '385px',
-            height: '62px',
-            fontSize: isMobile ? '16px' : '18px',
+            fontWeight: 'bold',
+            bottom: `calc(18% + ${buttonSpacing}px)`,
             letterSpacing: '1px',
           }}
         >
