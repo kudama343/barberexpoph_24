@@ -37,7 +37,7 @@ const HomePage: React.FC = () => {
         <Link
           href="/"
           className={`absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-3xl shadow-md text-center transition duration-300
-            ${isMobile ? 'w-[80%] h-[62px] text-[16px] py-3' : 'w-[385px] h-[62px] text-[20px] py-3'}
+            ${isMobile ? 'w-[80%] h-[62px] text-[15px] py-3' : 'w-[385px] h-[62px] text-[20px] py-3'}
             bg-[#3a3a3a] text-white hover:bg-gray-950 hover:text-white whitespace-nowrap`}
           style={{
             bottom: `calc(35% + ${buttonSpacing}px)`,
