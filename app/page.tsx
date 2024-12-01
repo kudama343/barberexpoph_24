@@ -4,15 +4,21 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const HomePage: React.FC = () => {
-  const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState<number | null>(null);
 
   useEffect(() => {
-    const handleResize = () => setScreenWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    // Ensure this code only runs on the client
+    if (typeof window !== 'undefined') {
+      const handleResize = () => setScreenWidth(window.innerWidth);
+
+      setScreenWidth(window.innerWidth); // Initial width
+      window.addEventListener('resize', handleResize);
+
+      return () => window.removeEventListener('resize', handleResize);
+    }
   }, []);
 
-  const isMobile = screenWidth < 768;
+  const isMobile = screenWidth !== null && screenWidth < 768;
 
   return (
     <div className="flex flex-col">
