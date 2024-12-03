@@ -7,14 +7,14 @@ const EliteClassPage: React.FC = () => {
 
   return (
     <div className="flex flex-col">
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV14.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV15.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV16.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV17.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV18.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV19.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV20.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
-      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/MobileV22_2.png')] flex flex-col items-center px-0 sm:px-4 relative">
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/1.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/2.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/3.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/4.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/5.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/6.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/7.png')] flex flex-col items-center justify-center px-0 sm:px-4"></div>
+      <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/EliteClass/8.png')] flex flex-col items-center px-0 sm:px-4 relative">
       <button
           onClick={redirectToForm}
           className="absolute mr-2  left-1/2 transform -translate-x-1/2 bottom-[32%] bg-white text-black 

@@ -11,13 +11,13 @@ const MasterClassPage: React.FC = () => {
 
   return (
       <div className="flex flex-col">
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV6.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV7.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV8.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV9.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV10.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV11.png')] flex flex-col items-center justify-center px-4 "></div>
-        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/MobileV13_2.png')] flex flex-col items-center px-4  relative">
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/1.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/2.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/3.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/4.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/5.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/6.png')] flex flex-col items-center justify-center px-4 "></div>
+        <div className="min-h-full w-full h-screen sm:bg-contain bg-cover bg-no-repeat bg-center bg-black bg-[url('/images/MasterClass/7.png')] flex flex-col items-center px-4  relative">
         <button
           onClick={redirectToForm}
           className="absolute mr-2  left-1/2 transform -translate-x-1/2 bottom-[31%] bg-white text-black 
